@@ -177,11 +177,16 @@ body {
   align-items: center;
 }
 
+.service-homepage a {
+  width: 45%
+}
+
 .service-item-img {
-  width: 40%;
+  width: 100%;
 }
 
 .service-text-group {
+  width: 55%;
   padding: 15px;
   display: flex;
   flex-flow: row wrap;
@@ -208,7 +213,7 @@ body {
   font-weight: 440;
 }
 
-#prj-mgt-hm-pg img {
+#prj-mgt-hm-pg a {
   order: 1;
 }
 

@@ -140,6 +140,8 @@ body {
   padding: 20px 0;
 }
 
+/**********Heading break lines************/
+
 .services-section-hdr {
   position: relative;
   text-align: center;
@@ -211,5 +213,112 @@ body {
 }
 
 /***********************************************************
+* Trailing Info Paragraph
+************************************************************/
+.trailing-info {
+  padding: 10px 8vw;
+  font-size: 1.5em;
+}
+
+/**********Paragraph break lines************/
+
+.trailing-info p {
+  position: relative;
+}
+
+.trailing-info::before, .trailing-info::after {
+  content: "";
+  background: #911E2D;
+  position: absolute;
+  display: block;
+  height: .1em;
+  width: 50%;
+  left: 25%;
+}
+
+
+/***********************************************************
+* Contact tag
+************************************************************/
+
+.contact-tag {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 10px 10px 10px;
+}
+
+.contact-tag p {
+  padding: 5px;
+  font-weight: 500;
+}
+
+.contact-tag button {
+  background: #EEE;
+  border-color: #EBEBEB;
+  border-style: solid;
+  border-radius: 5px;
+  color: #44000F;
+  font-size: 1.2em;
+  font-weight: 600;
+  padding: 9px 5px;
+}
+
+/***********************************************************
 * Footer
 ************************************************************/
+.main-footer-nav-list {
+  background: #44000F;
+  color: #F3F3F3;
+  padding: 10px 10px;
+  margin: 0;
+  position: relative;
+
+}
+
+.ftr-company-name {
+  font-size: 1.2em;
+  padding: 10px 5px;
+}
+
+.ftr-company-name::after {
+  content: "";
+  background: #E49533;
+  position: absolute;
+  display: block;
+  height: 1px;
+  width: 10%;
+  left: 25px;
+  margin: 10px 0;
+}
+
+.main-footer-nav-items {
+  padding: 5px 5px 10px 5px;
+  position: static;
+  margin: 5px 0 0 0;
+}
+
+.main-footer-nav-item {
+  list-style-type: none;
+  padding: 3px 5px;
+
+
+}
+
+.legal-nav-list {
+  background: #2e2e2e;
+  color: #F9F9F9;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-weight: 300;
+  font-size: 1em;
+  padding: 10px 0;
+  border-top: 2px solid #E49533;
+  margin: 0;
+}
+
+.legal-nav-item {
+  list-style-type: none;
+}

@@ -1,0 +1,215 @@
+/*
+Colors:
+  Dark maroon: #44000F
+  Maroon: #911E2D
+  Gold: #E49533
+  Dark Gray: #2e2e2e
+  Off white: #F3F3F3
+  Text light gray: #737373
+  Text dark gray: #656565
+  Button Color: #EEE
+
+
+*/
+
+
+
+body {
+  margin: 0;
+  font-family: "Roboto", Verdana, Arial, sans-serif;
+  color: #737373;
+}
+
+/***********************************************************
+*  Header
+************************************************************/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  max-width: 160px;
+  padding: 10px 12px;
+}
+
+.logo-img {
+  width: 100%;
+}
+
+.mobile-menu {
+  width: 40px;
+
+}
+
+/***********************************************************
+** Creating the hamburger menu
+************************************************************/
+
+.hamburger-menu {
+  background: #fff;
+  border: 0;
+  width: 0;
+  height: 40px;
+  padding: 7px 33px;
+  box-sizing: content-box;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
+
+.hamburger {
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 0.2em;
+  width: 2em;
+  position: absolute;
+  display: block;
+  background: #44000F;
+  margin: auto;
+  transform: translateY(-50%);
+  transition: all .3s;
+
+}
+
+.hamburger:before, .hamburger:after {
+   left: 0;
+   height: 0.2em;
+   width: 100%;
+   position: absolute;
+   display: block;
+   background: #44000F;
+   content: "";
+   transition-duration: .3s, 0.3s;
+ }
+
+.hamburger:before {
+  top: -.5em;
+  transition-property: top, transform;
+
+  }
+
+  .hamburger:after {
+    bottom: -.5em;
+    transition-property: bottom, transform;
+    }
+
+
+/***********************************************************
+* Main Section
+************************************************************/
+
+/***********************************************************
+* Hero Section
+************************************************************/
+.hero {
+  width: 100vw;
+  margin-bottom: 2em;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.hero p {
+  padding: 5px 25px 0 25px;
+  margin-bottom: 1px;
+  font-size: 1.8em;
+  font-weight: 300;
+
+}
+
+.hero span {
+  padding: 0 5px 5px 70vw;
+}
+
+.hero a {
+  color: #656565;
+  font-weight: 440;
+}
+
+/***********************************************************
+* Services Section
+************************************************************/
+.services-section-hdr-tag {
+  padding: 20px 0;
+}
+
+.services-section-hdr {
+  position: relative;
+  text-align: center;
+}
+
+.services-section-hdr:before, .services-section-hdr:after {
+  content: "";
+  background: #911E2D;
+  position: absolute;
+  display: block;
+  height: .1em;
+  width: 50%;
+  left: 25%;
+}
+
+.services-section-hdr:before {
+  top: -.9em;
+}
+
+.services-section-hdr:after {
+  bottom: -1.15em;
+}
+
+.services-section-hdr a {
+  color: #676767;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: 550;
+}
+
+.service-homepage {
+  display: flex;
+  align-items: center;
+}
+
+.service-item-img {
+  width: 40%;
+}
+
+.service-text-group {
+  padding: 15px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.service-text-group h1 {
+  color: #676767;
+  margin: .4em 0;
+  font-weight: 500;
+  font-size: 1.22em;
+
+}
+
+.service-text-group p {
+  color: #737373;
+  margin: auto;
+  font-weight: 400;
+
+}
+
+.service-text-group a {
+  color: #656565;
+  padding: 0 5px 5px 25vw;
+  font-weight: 440;
+}
+
+#prj-mgt-hm-pg img {
+  order: 1;
+}
+
+/***********************************************************
+* Footer
+************************************************************/

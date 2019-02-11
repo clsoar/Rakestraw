@@ -10,14 +10,15 @@ const mobileMenuBack = document.querySelector("#back-btn");
 hamburgerMenu.addEventListener("click", (evt) => {
   mobileMenu.classList.toggle("hidden");
   hamburger.classList.toggle("hamburger-close");
-
+  if (mobileServicesMenu.classList.contains("show-submenu")) {
+    mobileServicesMenu.classList.toggle("hidden");
+    mobileServicesMenu.classList.toggle("show-submenu");
+  }
 })
 
 servicesSelector.addEventListener("click", (evt) => {
-
   mobileServicesMenu.classList.toggle("hidden");
   mobileServicesMenu.classList.toggle("show-submenu");
-
 })
 
 mobileMenuBack.addEventListener("click", (evt) => {

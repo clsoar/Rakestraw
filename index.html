@@ -27,28 +27,50 @@
       </a>
     </div>
     <nav class="main-nav">
-      <div class="mobile-menu-icon">
-        <input aria-label="menu" id="hamburger-menu" class="hamburger-menu" type="checkbox" name="menu">
+        <button aria-label="menu" id="hamburger-menu" class="hamburger-menu" type="button" name="menu">
           <span class="hamburger"></span>
-      </div>
+        </button>
       <div class="mobile-menu hidden">
         <ul class="mobile-menu-list">
-          <li class="mobile-menu-item">Home</li>
-          <li class="mobile-menu-item">About</li>
-          <li class="mobile-menu-item">Services</li>
-          <li class="mobile-menu-item">Projects</li>
-          <li class="mobile-menu-item">Contact</li>
+          <li class="mobile-menu-item">
+            <a href="/index.html">Home</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a href="#">About</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a href="#">Services</a>
+            <div class="mobile-services-menu hidden">
+              <ul class="mobile-services-menu-list">
+                <li class="mobile-services-menu-item submenu-wrapper">
+                  <a class="back-arrow" href="#">&nbsp;<&nbsp;</a>
+                  <a class="back-link" href="#">Back</a>
+
+                </li>
+                <li class="mobile-services-menu-item">
+                  <a href="#">Services Overview</a>
+                </li>
+                <li class="mobile-services-menu-item">
+                  <a href="#">Engineering</a>
+                </li>
+                <li class="mobile-services-menu-item">
+                  <a href="#">Project Management</a>
+                </li>
+                <li class="mobile-services-menu-item">
+                  <a href="#">Inspections</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="mobile-menu-item">
+            <a href="#">Projects</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a href="#">Contact</a>
+          </li>
         </ul>
       </div>
-      <div class="mobile-services-menu hidden">
-        <ul class="mobile-services-menu-list">
-          <li class="mobile-services-menu-item">Back</li>
-          <li class="mobile-services-menu-item">Services Overview</li>
-          <li class="mobile-services-menu-item">Engineering</li>
-          <li class="mobile-services-menu-item">Project Management</li>
-          <li class="mobile-services-menu-item">Inspections</li>
-        </ul>
-      </div>
+
 
     </nav>
 
@@ -128,7 +150,9 @@
       </ul>
     </nav>
   </footer>
+  <script type="text/javascript" src="js/app.js">
 
+  </script>
 </body>
 
 

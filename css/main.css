@@ -47,7 +47,7 @@ body {
 ** Creating the hamburger menu
 ************************************************************/
 
-.mobile-menu-icon {
+.hamburger-menu {
   background: #fff;
   border: 0;
   width: 0;
@@ -60,31 +60,6 @@ body {
   right: 0;
 }
 
-.mobile-menu-icon input {
-  z-index: 2;
-  width: 50px;
-  height: 40px;
-  position: absolute;
-  left: 0;
-  opacity: 0;
-  margin: auto;
-}
-
-.mobile-menu-icon input:checked ~ .hamburger {
-  background: 0;
-}
-
-.mobile-menu-icon input:checked ~ .hamburger::before {
-  top: 0;
-  transform: rotate(45deg);
-}
-
-.mobile-menu-icon input:checked ~ .hamburger::after {
-  bottom: 0;
-  transform: rotate(-45deg);
-}
-
-
 .hamburger {
   top: 50%;
   left: 0;
@@ -94,8 +69,7 @@ body {
   position: absolute;
   display: block;
   background: #44000F;
-  margin-left: 10%;
-  margin-right: auto;
+  margin: auto;
   transform: translateY(-50%);
   transition: all .3s;
 
@@ -124,6 +98,36 @@ body {
     }
 
 /***********************************************************
+** Hamburger Menu Icon Transition
+************************************************************/
+
+  /*  .hammburger-menu {
+      z-index: 2;
+      width: 50px;
+      height: 40px;
+      position: absolute;
+      left: 0;
+      opacity: 0;
+      margin: auto;
+    }*/
+
+    .hamburger-close.hamburger {
+      background: 0;
+    }
+
+    .hamburger-close.hamburger::before {
+      top: 0;
+      transform: rotate(45deg);
+    }
+
+    .hamburger-close.hamburger::after {
+      bottom: 0;
+      transform: rotate(-45deg);
+    }
+
+
+
+/***********************************************************
 * Mobile Navigation Top Menu
 ************************************************************/
 .main-nav {
@@ -140,7 +144,7 @@ body {
 .mobile-menu-list {
   list-style-type: none;
   background: #44000F;
-  padding: 10px 0 10px 0;
+  padding: 0;
   position: absolute;
   width: 100%;
   top: 2.5em;
@@ -155,38 +159,65 @@ body {
   text-align: center;
 }
 
-.mobile-menu-item:first-child {
-  border-top: 1px solid #E49533;
+.mobile-menu-item a {
+  text-decoration: none;
+  color: #F3F3F3;
+
+}
+
+.mobile-menu-item:last-child {
+  border-bottom: none;
+}
+
+.submenu-wrapper {
+  display: flex;
 }
 
 .mobile-services-menu {
   background: #44000F;
   color: #F3F3F3;
-  font-size: 1.4em;
+  font-size: 1.1em;
 
 }
 
 .mobile-services-menu-list {
   list-style-type: none;
   background: #44000F;
-  padding: 10px 0;
+  color: #F3F3F3;
+  padding: 0;
   position: absolute;
   width: 100%;
   padding-inline-start: 0;
-  top: 2.5em;
+  top: 0;
   left: 0;
   text-align: center;
 
 }
+ .back-link {
+   padding: 0 10px;
+ }
+
+ .back-arrow {
+ }
 
 .mobile-services-menu-item {
   padding: 10px;
   border-bottom: 1px solid #E49533;
 }
 
+.mobile-services-menu-item:last-child {
+  border-bottom: none;
+}
+
+
+.mobile-services-menu-item a {
+  text-decoration: none;
+  color: #F3F3F3;
+
+}
+
 .hidden {
-  opacity: 0;
-  backface-visibility: hidden;
+  display: none;
 }
 
 /***********************************************************

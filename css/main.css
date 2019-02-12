@@ -406,12 +406,16 @@ body {
   padding: 10px 10px;
   margin: 0;
   position: relative;
-
 }
 
 .ftr-company-name {
   font-size: 1.2em;
   padding: 10px 5px;
+}
+
+.ftr-company-name a {
+  text-decoration: none;
+  color: #F3F3F3;
 }
 
 .ftr-company-name::after {
@@ -434,7 +438,11 @@ body {
 .main-footer-nav-item {
   list-style-type: none;
   padding: 3px 5px;
+}
 
+.main-footer-nav-item a {
+  text-decoration: none;
+  color: #F3F3F3;
 
 }
 
@@ -453,4 +461,9 @@ body {
 
 .legal-nav-item {
   list-style-type: none;
+}
+
+.legal-nav-item a {
+  text-decoration: none;
+  color: #F3F3F3;
 }

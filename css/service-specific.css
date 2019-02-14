@@ -1,0 +1,152 @@
+/*******************************************************
+* Hero Section
+************************************************************/
+
+/**********Heading styling and break lines************/
+
+.eng-hero {
+  width: 100vw;
+  margin-bottom: 2em;
+}
+
+.eng-section-hdr-tag {
+  padding: 20px 0;
+}
+
+.eng-section-hdr h1{
+  font-size: 1.5em;
+}
+
+.eng-section-hdr {
+  position: relative;
+  text-align: center;
+}
+
+.eng-section-hdr::before, .eng-section-hdr::after {
+  content: "";
+  background: #911E2D;
+  position: absolute;
+  display: block;
+  height: .1em;
+  width: 70%;
+  left: 15%;
+}
+
+.eng-section-hdr::before {
+  top: -.4em;
+}
+
+.eng-section-hdr::after {
+  bottom: -.7em;
+}
+
+.eng-hero p {
+  padding: 0 5%;
+  font-size: 1.5em;
+  font-weight: 300;
+  margin-block-start: 0;
+  margin: 0 0 .3em 0;
+}
+
+.eng-hero span {
+  padding: 0 5px 5px 70vw;
+}
+
+.eng-hero a {
+  color: #656565;
+  font-weight: 550;
+}
+
+.eng-hero-img-container {
+  display: flex;
+  padding: 12% 0 0 0;
+}
+
+.img-wrapper-eng {
+  width: 50%;
+  margin: auto;
+
+}
+
+.eng-hero-img {
+  width: 100%;
+
+}
+
+
+/***********************************************************
+* Info Section
+************************************************************/
+
+
+.service-info-section {
+
+}
+
+.service-info-container {
+  padding: 2% 5% 3% 5%;
+}
+
+.service-info-container h2{
+  text-decoration: underline;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.services-offered-container {
+  padding: 0 5% 3% 5%;
+
+}
+
+.services-offered-container h2{
+  text-decoration: underline;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.service-item {
+  padding: 3px;
+}
+
+.service-process-container {
+  padding: 0 5% 3% 5%;
+
+}
+
+.service-process-container h2{
+  text-decoration: underline;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***********************************************************
+* Contact line break
+************************************************************/
+
+.contact-tag {
+  margin-top: 20px;
+}
+
+.contact-tag::before {
+  content: "";
+  background: #911E2D;
+  position: relative;
+  display: block;
+  height: .1em;
+  width: 50%;
+  left: 1%;
+  top: -.6em;
+}

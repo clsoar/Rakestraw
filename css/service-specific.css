@@ -40,6 +40,36 @@
   bottom: -.7em;
 }
 
+/****Project Management header adjustments ******************/
+.mgt-section-hdr h1{
+  font-size: 1.5em;
+}
+
+.mgt-section-hdr {
+  position: relative;
+  text-align: center;
+}
+
+.mgt-section-hdr::before, .mgt-section-hdr::after {
+  content: "";
+  background: #911E2D;
+  position: absolute;
+  display: block;
+  height: .1em;
+  width: 80%;
+  left: 10%;
+}
+
+.mgt-section-hdr::before {
+  top: -.4em;
+}
+
+.mgt-section-hdr::after {
+  bottom: -.7em;
+}
+
+/*******Styles continued********/
+
 .eng-hero p {
   padding: 0 5%;
   font-size: 1.5em;

@@ -151,6 +151,7 @@ body {
   left: 0;
   padding-inline-start: 0;
   margin: 0;
+  z-index: 1;
 }
 
 .mobile-menu-item {

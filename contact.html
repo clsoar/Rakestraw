@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Providing professional engineering, project management, and inspections services to the Texas Gulf Coast.">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/service-specific.css">
+  <link rel="stylesheet" href="css/contact.css">
 
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
 
@@ -55,13 +55,13 @@
                 <a href="services.html">Services Overview</a>
               </li>
               <li class="mobile-services-menu-item">
-                <a href="#">Engineering</a>
+                <a href="engineering.html">Engineering</a>
               </li>
               <li class="mobile-services-menu-item">
-                <a href="#">Project Management</a>
+                <a href="project-management.html">Project Management</a>
               </li>
               <li class="mobile-services-menu-item">
-                <a href="services.html">Inspections</a>
+                <a href="inspection.html">Inspections</a>
               </li>
             </ul>
           </div>
@@ -70,7 +70,7 @@
             <a href="#">Projects</a>
           </li> -->
           <li class="mobile-menu-item">
-            <a href="#">Contact</a>
+            <a href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
@@ -81,47 +81,29 @@
   </header>
 
   <main>
-    <section class="eng-hero">
-      <header class="eng-section-hdr-tag">
-        <div class="mgt-section-hdr">
-          <h1>Project Management</h1>
-        </div>
-      </header>
-      <p>Specific service highlight blurb. Sapien etiam, nunc amet dolor ac odio mauris justo.</p>
-      <a href="#">
-        <span>Contact Us</span>
-      </a>
-      <div class="eng-hero-img-container">
-        <div class="img-wrapper-eng"><img class="eng-hero-img" src="img/ideas/technical-drawing.jpg" alt="Partially constructed structure with multiple cranes against a blue sky."></div>
+
+    <section class="contact-intro">
+      <h1>Get in touch with an expert</h1>
+      <div class="form-intro-wrapper">
+        <h2>Send us a message.</h2>
+
       </div>
+      <p>You can expect a response within 12 hours.</p>
     </section>
-
-    <section class="service-info-section">
-        <div class="service-info-container">
-          <h2>More info about service</h2>
-          <p>More specific type of this service could go here. Or benefit to customer, what customer needs from service, etc., could go here. Lorem ipsum dolor sit amet, sapien etiam, nunc amet dolor ac odio mauris justo. Luctus arcu, urna praesent at id quisque ac.</p>
-        </div>
-        <div class="services-offered-container">
-          <h2>More services we offer</h2>
-          <ul class="services-offered-list">
-            <li class="service-item">Service specialty</li>
-            <li class="service-item">Service specialty</li>
-            <li class="service-item">Service specialty</li>
-            <li class="service-item">Service specialty</li>
-            <li class="service-item">Service specialty</li>
-            <li class="service-item">Service specialty</li>
-            <li class="service-item">Service specialty</li>
-          </ul>
-        </div>
-        <div class="service-process-container">
-          <h2>Process</h2>
-          <p>Company process for accomplishing customer goals for this service, etc., could go here. Lorem ipsum dolor sit amet, sapien etiam, nunc amet dolor ac odio mauris justo. Luctus arcu, urna praesent at id quisque ac.</p>
-        </div>
-      </section>
-
-    <section class="contact-tag">
-      <p>Get in touch with an expert</p>
-      <button type="button" name="contact-us">Contact Us</button>
+    <section class="contact-form-section">
+      <form class="contact-form" id="contact-form" action="index.html" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="youremail@domain.com">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="(XXX) XXX-XXXX">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="Subject Line">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="12" cols="80" placeholder="I would like to discuss a project."></textarea>
+        <button id="form-submit-btn" aria-label="Submit Form" type="submit" name="button">Submit</button>
+      </form>
     </section>
 
   </main>
@@ -145,7 +127,7 @@
           </li>
           -->
           <li class="main-footer-nav-item">
-            <a href="#">Contact</a>
+            <a href="contact.html">Contact</a>
           </li>
         </div>
 

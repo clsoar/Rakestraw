@@ -388,15 +388,16 @@ body {
   font-size: .8em;
 }
 
-.contact-tag button {
+.contact-tag a {
   background: #EEE;
   border-color: #EBEBEB;
   border-style: solid;
   border-radius: 5px;
   color: #44000F;
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: 600;
   padding: 9px 5px;
+  text-decoration: none;
 }
 
 /***********************************************************
@@ -411,7 +412,7 @@ body {
 }
 
 .ftr-company-name {
-  font-size: 1.2em;
+  font-size: 1.3em;
   padding: 10px 5px;
 }
 
@@ -435,6 +436,7 @@ body {
   padding: 5px 5px 10px 5px;
   position: static;
   margin: 5px 0 0 0;
+  font-size: 1.1em;
 }
 
 .main-footer-nav-item {
@@ -455,10 +457,12 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   font-weight: 300;
-  font-size: 1em;
+  font-size: .8em;
   padding: 10px 0;
   border-top: 2px solid #E49533;
   margin: 0;
+  padding-inline-start: 0;
+
 }
 
 .legal-nav-item {

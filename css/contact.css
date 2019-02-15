@@ -1,0 +1,93 @@
+/******Header bottom line********/
+.header {
+  border-bottom: 2px solid #911E2D;
+}
+
+
+.contact-intro {
+  text-align: center;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+}
+
+.contact-intro h1 {
+  font-size: 1.2em;
+  font-weight: 600;
+  padding-bottom: 5%;
+}
+
+.contact-intro h2 {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.contact-intro p {
+  padding: 0 20%;
+  margin-top: 2em;
+}
+
+/****** Line break style *********/
+.form-intro-wrapper {
+  position: relative;
+}
+
+.contact-intro h2::after {
+  content: "";
+  background: #911E2D;
+  position: absolute;
+  display: block;
+  height: 1.5px;
+  width: 20%;
+  left: 40%;
+  bottom: -.9em;
+}
+
+
+/***********************************************************
+* Form  Section
+************************************************************/
+.contact-form {
+  background: #656565;
+  border-radius: 15px;
+  padding: 10px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 350px;
+  width: 65%;
+  margin: auto;
+  margin-bottom: 3em;
+  justify-content: flex-end;
+}
+
+.contact-form label {
+  color: #F3F3F3;
+  width: 100%;
+  padding: 5px 0;
+
+}
+
+.contact-form input {
+  width: 100%;
+  color: #434343;
+  padding: 3px 5px;
+}
+
+.contact-form textarea {
+  padding: 3px 5px;
+  font-family: "Roboto", Verdana, Arial, sans-serif;
+
+}
+
+#form-submit-btn {
+  margin: 10px 0;
+  padding: 5px 8px;
+  border-radius: 5px;
+  border-style: solid;
+  color: #555;
+  font-weight: 500;
+  font-size: 1em;
+  font-family: "Roboto", Verdana, Arial, sans-serif;
+  background-color: #EEE;
+
+
+}

@@ -1,0 +1,47 @@
+/*******************************************************
+* Main Section
+************************************************************/
+
+/**********Heading styling and break lines************/
+
+.legal-hero {
+  width: 100vw;
+  margin-bottom: 2em;
+}
+
+.legal-section-hdr-tag {
+  padding: 20px 0;
+}
+
+.legal-section-hdr h1{
+  font-size: 1.2em;
+}
+
+.legal-section-hdr {
+  position: relative;
+  text-align: center;
+}
+
+.legal-section-hdr::before, .legal-section-hdr::after {
+  content: "";
+  background: #911E2D;
+  position: absolute;
+  display: block;
+  height: .1em;
+  width: 80%;
+  left: 10%;
+}
+
+.legal-section-hdr::before {
+  top: -.4em;
+}
+
+.legal-section-hdr::after {
+  bottom: -.4em;
+}
+
+/********paragraph styling *************/
+
+.legal-hero p {
+   padding: 0 15% 10px 15%;
+}

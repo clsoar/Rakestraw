@@ -26,17 +26,17 @@
   background: #911E2D;
   position: absolute;
   display: block;
-  height: .1em;
+  height: 1.5px;
   width: 60%;
   left: 20%;
 }
 
 .prj-section-hdr::before {
-  top: -.4em;
+  top: -10px;
 }
 
 .prj-section-hdr::after {
-  bottom: -.7em;
+  bottom: -10px;
 }
 
 /*******************************************************
@@ -50,7 +50,8 @@
 .project-page {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 1.5em;
+  margin-bottom: 1.8em;
+  align-items: center;
 }
 
 .project-page-pic {
@@ -108,5 +109,5 @@
   height: 1.5px;
   width: 60%;
   left: 20%;
-  bottom: -.8em;
+  bottom: -10px;
 }

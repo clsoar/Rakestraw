@@ -253,12 +253,13 @@ body {
 }
 
 .hero span {
-  padding: 0 5px 5px 70vw;
+  padding: 5px 5px 5px 65vw;
 }
 
 .hero a {
   color: #656565;
   font-weight: 440;
+  font-size: 1.2em;
 }
 
 /***********************************************************
@@ -280,17 +281,17 @@ body {
   background: #911E2D;
   position: absolute;
   display: block;
-  height: .1em;
+  height: 1.5px;
   width: 50%;
   left: 25%;
 }
 
 .services-section-hdr::before {
-  top: -.9em;
+  top: -10px;
 }
 
 .services-section-hdr::after {
-  bottom: -1.15em;
+  bottom: -10px;
 }
 
 .services-section-hdr a {
@@ -341,7 +342,7 @@ body {
 
 .homepage-learn-more a {
   color: #656565;
-  padding: 5px 5px 5px 20vw;
+  padding: 8px 5px 5px 20vw;
   font-weight: 490;
   width: 100%;
 }

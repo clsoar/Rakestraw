@@ -335,10 +335,15 @@ body {
 
 }
 
-.service-text-group a {
+.homepage-learn-more {
+
+}
+
+.homepage-learn-more a {
   color: #656565;
-  padding: 5px 5px 5px 25vw;
-  font-weight: 440;
+  padding: 5px 5px 5px 20vw;
+  font-weight: 490;
+  width: 100%;
 }
 
 #prj-mgt-hm-pg a {

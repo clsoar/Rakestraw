@@ -1,4 +1,29 @@
 /***********************************************************
+* Hero Section
+************************************************************/
+.services-hero-img-wrapper {
+  position: relative;
+  display: inline-block;
+
+}
+
+.services-hero-img {
+  width: 100%;
+  display: block;
+}
+
+.hdg-over-img {
+  position: absolute;
+  top: 45%;
+  left: 58%;
+  text-shadow:
+    -.5px -.5px 0 #FFF,
+    .5px -.5px 0 #FFF,
+    -.5px .5px 0 #FFF,
+    .5px .5px 0 #FFF;
+}
+
+/***********************************************************
 * Services Section
 ************************************************************/
 
@@ -19,7 +44,7 @@
 
 .service-ovr-text-group {
   width: 100%;
-  padding: 15px;
+  padding: 8% 15px;
   display: flex;
   flex-flow: row wrap;
 }
@@ -28,7 +53,7 @@
   color: #676767;
   margin: .4em auto;
   font-weight: 500;
-  font-size: 1.22em;
+  font-size: 1.3em;
   text-align: center;
 }
 
@@ -36,6 +61,7 @@
   color: #737373;
   margin: auto;
   font-weight: 400;
+  font-size: 1.2em;
   padding: 0 3%;
 
 }
@@ -60,11 +86,7 @@
   position: relative;
   display: block;
   height: .1em;
-  width: 50%;
+  width: 52%;
   left: 1%;
   top: -.6em;
-}
-
-.contact-tag p {
-  width: 55%;
 }

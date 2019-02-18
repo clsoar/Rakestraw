@@ -75,7 +75,8 @@
 .contact-form textarea {
   padding: 3px 5px;
   font-family: "Roboto", Verdana, Arial, sans-serif;
-
+  width: 100%;
+  overflow: hidden;
 }
 
 #form-submit-btn {

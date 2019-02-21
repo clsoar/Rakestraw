@@ -177,7 +177,7 @@ body {
 .mobile-services-menu {
   background: #44000F;
   color: #F3F3F3;
-  font-size: 1.1em;
+  font-size: 1em;
 
 }
 
@@ -253,7 +253,7 @@ body {
 }
 
 .hero span {
-  padding: 5px 25px;
+  padding: 5px 10%;
   display: flex;
   justify-content: flex-end;
 }
@@ -306,7 +306,7 @@ body {
 
 .service-text-group {
   width: 55%;
-  padding: 15px;
+  padding: 4%;
   display: flex;
   flex-flow: row wrap;
 }
@@ -334,9 +334,11 @@ body {
 
 .homepage-learn-more a {
   color: #656565;
-  padding: 8px 5px 5px 5px;
+  padding: 5% 5px 5px 5px;
   font-weight: 490;
   margin-left: auto;
+  width: 100%;
+  text-align: right;
 }
 
 #prj-mgt-hm-pg a {
@@ -347,7 +349,7 @@ body {
 * Trailing Info Paragraph
 ************************************************************/
 .trailing-info {
-  padding: 10px 8vw;
+  padding: 5% 8vw 10px 8vw;
   font-size: 1.5em;
 }
 
@@ -445,6 +447,10 @@ body {
   font-size: 1.1em;
 }
 
+.lg-screen-footer {
+  display: none;
+}
+
 .main-footer-nav-item {
   list-style-type: none;
   padding: 3px 5px;
@@ -478,4 +484,78 @@ body {
 .legal-nav-item a {
   text-decoration: none;
   color: #F3F3F3;
+}
+
+/***********************************************************
+* Media Queries
+************************************************************/
+
+@media screen and (min-width: 750px) {
+  /***Header***/
+  .logo {
+    max-width: 200px;
+  }
+  .hamburger-menu {
+    height: 44px;
+    padding: 7px 38px;
+  }
+  /***Services Section***/
+  .services-section-hdr {
+    border-top: 2px solid #911E2D;
+    border-bottom: 2px solid #911E2D;
+  }
+  .services-section-hdr a {
+    font-size: 1.4em;
+  }
+  .service-homepage a {
+    width: 35%;
+    padding: 0 5%;
+  }
+
+  .service-text-group h1 {
+    font-size: 1.3em;
+  }
+  .homepage-learn-more a {
+    padding-top: 2%;
+    width: 100%;
+  }
+  /***trailing info line breaks***/
+  .trailing-info::before, .trailing-info::after {
+    height: .15em;
+  }
+  /***Footer***/
+  .lg-screen-services {
+    position: absolute;
+    left: 65%;
+    bottom: 65%;
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+
+  .lg-screen-footer {
+    position: absolute;
+    left: 67%;
+    bottom: 12%;
+    display: block;
+    font-size: 1.1em;
+  }
+  .main-footer-nav-items {
+    padding-left: 10%;
+  }
+  .ftr-company-name {
+    font-size: 1.4em;
+    font-weight: 500;
+    padding: 7% 5px 0 8%;
+    padding-top: 3%;
+  }
+  .ftr-company-name::after {
+    display: none;
+  }
+  .vertical-ftr-line {
+    border-left: 2px solid #E49533;
+    position: absolute;
+    left: 51%;
+    bottom: 18%;
+    height: 100px;
+  }
 }

@@ -535,18 +535,18 @@ body {
   .lg-screen-footer {
     position: absolute;
     left: 67%;
-    bottom: 12%;
+    bottom: 10%; /*15% with projects*/
     display: block;
-    font-size: 1.1em;
+    font-size: 1em;
   }
   .main-footer-nav-items {
-    padding-left: 10%;
+    padding-left: 16%;
+    padding-bottom: 15px;
   }
   .ftr-company-name {
     font-size: 1.4em;
     font-weight: 500;
-    padding: 7% 5px 0 8%;
-    padding-top: 3%;
+    padding: 3% 5px 0 14%;
   }
   .ftr-company-name::after {
     display: none;
@@ -555,7 +555,7 @@ body {
     border-left: 2px solid #E49533;
     position: absolute;
     left: 51%;
-    bottom: 18%;
-    height: 100px;
+    bottom: 17%; /*18% with projects*/
+    height: 90px; /*100px with projects*/
   }
 }

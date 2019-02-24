@@ -95,7 +95,7 @@
 /***********************************************************
 * Media Queries for medium screens
 ************************************************************/
-@media screen and (min-width: 750px){
+@media screen and (min-width: 700px){
   .hdg-over-img {
     font-size: 2em;
     top: 60%;

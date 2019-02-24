@@ -96,7 +96,7 @@
 * Media Queries
 ************************************************************/
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 700px) {
   .contact-form {
     font-size: 1.1em;
   }

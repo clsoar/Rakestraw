@@ -178,7 +178,7 @@
 /***********************************************************
 * media queries for medium screens
 ************************************************************/
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 700px) {
   /*center services offered section*/
   .services-offered-container h2{
     text-align: center;

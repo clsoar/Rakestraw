@@ -490,7 +490,7 @@ body {
 * Media Queries
 ************************************************************/
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 700px) {
   /***Header***/
   .logo {
     max-width: 200px;

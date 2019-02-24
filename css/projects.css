@@ -110,7 +110,7 @@
 * Media Queries
 ************************************************************/
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 700px) {
   .project-page {
     padding-top: 2%;
     padding-left: 2%;

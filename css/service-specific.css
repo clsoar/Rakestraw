@@ -134,8 +134,13 @@
   font-weight: 600;
 }
 
+.services-offered-list {
+
+}
+
 .service-item {
   padding: 3px;
+
 }
 
 .service-process-container {
@@ -148,18 +153,6 @@
   font-size: 1.3em;
   font-weight: 600;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /***********************************************************
@@ -179,4 +172,22 @@
   width: 50%;
   left: 1%;
   top: -.6em;
+}
+
+
+/***********************************************************
+* media queries for medium screens
+************************************************************/
+@media screen and (min-width: 750px) {
+  /*center services offered section*/
+  .services-offered-container h2{
+    text-align: center;
+  }
+  .services-offered-list {
+    list-style-position: inside;
+    text-align: center;
+  }
+  .services-offered-list {
+    padding: 0 0 0 0;
+  }
 }

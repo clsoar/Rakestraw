@@ -565,4 +565,17 @@ body {
     bottom: 17%; /*18% with projects*/
     height: 90px; /*100px with projects*/
   }
+  .legal-nav-list {
+    justify-content: center;
+  }
+  .legal-nav-item {
+    padding: 0 2%;
+  }
+  .legal-nav-item:first-child {
+    border-right: 1px solid white;
+
+  }
+  .legal-nav-item:last-child {
+    border-left: 1px solid white;
+  }
 }

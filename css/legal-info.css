@@ -45,3 +45,25 @@
 .legal-hero p {
    padding: 0 15% 10px 15%;
 }
+
+/***********************************************************
+* Media Queries
+************************************************************/
+
+@media screen and (min-width: 750px) {
+  .legal-section-hdr::before, .legal-section-hdr::after {
+    height: 2px;
+    width: 50%;
+    left: 25%;
+  }
+  .legal-section-hdr::before {
+    top: -10px;
+  }
+
+  .legal-section-hdr::after {
+    bottom: -10px;
+  }
+  .legal-hero p {
+    padding: 0 20% 10px 20%;
+  }
+}

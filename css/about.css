@@ -108,3 +108,27 @@
   width: 50%;
   left: 25%;
 }
+
+/***********************************************************
+* Media Queries
+************************************************************/
+@media screen and (min-width: 750px){
+  .hdg-over-img {
+    font-size: 1.6em;
+  }
+  .about-hero p{
+    padding: 5px 10%;
+  }
+  .about-text-group {
+    padding: 5%;
+  }
+  .credential-info {
+    padding: 20px 20% 10px 20%;
+  }
+  .credential-info p {
+    margin-bottom: 2em;
+  }
+  .credential-info::after {
+    height: .2em;
+  }
+}

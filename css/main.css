@@ -536,7 +536,7 @@ body {
     position: absolute;
     left: 65%;
     bottom: 65%;
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: 500;
   }
 
@@ -636,5 +636,67 @@ body {
   .trailing-info::before, .trailing-info::after {
     width: 30%;
     left: 33.5%;
+  }
+  /***Contact Tag***/
+  .contact-tag {
+    padding: 0 3% 3% 0;
+  }
+  .contact-tag p {
+    width: auto;
+    text-align: left;
+    padding: 0 20px 0 0;
+  }
+  .contact-btn {
+    width: auto;
+    text-align: center;
+  }
+  /***Footer***/
+  .main-footer-nav-list{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .lg-screen-services {
+    left: 46%;
+    bottom: 65%; /*65% with projects*/
+  }
+  .lg-screen-footer {
+    left: 47.5%;
+    bottom: 13%; /*13% with projects*/
+  }
+  .main-footer-nav-items {
+    padding-left: 13%;
+  }
+  .main-footer-nav-item {
+    padding: 4px 5px;
+  }
+  .ftr-company-name {
+    padding: 1% 5px 0 11%;
+  }
+  #ftr-contact-item {
+    position: absolute;
+    left: 83%;
+    bottom: 38%; /*40% with projects*/
+  }
+  #ftr-contact-item a {
+    color: #44000F;
+    font-weight: 500;
+    background-color: #E49533;
+    border: 1px solid #EEE;
+    padding: 5px 20px;
+  }
+
+  .vertical-ftr-line {
+    border-left: 2px solid #E49533;
+    position: absolute;
+    left: 35%;
+    bottom: 17%; /*18% with projects*/
+    height: 90px; /*100px with projects*/
+  }
+  .vertical-ftr-line-lg {
+    border-left: 2px solid #E49533;
+    position: absolute;
+    left: 71%;
+    bottom: 17%; /*18% with projects*/
+    height: 90px; /*100px with projects*/
   }
 }

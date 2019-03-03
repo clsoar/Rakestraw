@@ -594,6 +594,48 @@ body {
   .large-screen-menu {
     display: block;
   }
+  /**Hero Section**/
+  .hero {
+    position: relative;
+    display: inline-block;
+  }
+  .hero img {
+    width: 100%;
+    display: block;
+  }
+  .hero p {
+    color: #fff;
+    font-weight: 500;
+    padding: 0 8%;
+    position: absolute;
+    top: 75%;
+    left: 55%;
+    text-shadow:
+      -2px -2px 3px #000,
+      2px -2px 3px #000,
+      -2px 2px 3px #000,
+      2px 2px 3px #000;
+  }
+  .hero a {
+    background: rgba(050, 050, 050, 0.75);
+    color: #fff;
+    font-weight: 500;
+    position: absolute;
+    top: 90%;
+    left: 84%;
+    /*text-shadow:
+      -2px -2px 3px #000,
+      2px -2px 3px #000,
+      -2px 2px 3px #000,
+      2px 2px 3px #000;*/
+    font-size: 1.4em;
+    border: 1px solid #000;
+    text-decoration: none;
+  }
+  .hero span {
+    padding: 5px 10px;
+
+  }
   /***Services Section***/
   .services-section-hdr {
     border-top: 2.5px solid #911E2D;
@@ -674,7 +716,7 @@ body {
   }
   #ftr-contact-item {
     position: absolute;
-    left: 83%;
+    left: 82%;
     bottom: 38%; /*40% with projects*/
   }
   #ftr-contact-item a {

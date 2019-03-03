@@ -608,21 +608,21 @@ body {
     font-weight: 500;
     padding: 0 8%;
     position: absolute;
-    bottom: 8%;
+    bottom: 9%;
     left: 55%;
     text-shadow:
-      -5px -5px 10px #000,
-      5px -5px 10px #000,
-      -5px 5px 10px #000,
-      5px 5px 10px #000,
-      0 5px 10px #000;
+      -5px -5px 20px #000,
+      5px -5px 20px #000,
+      -5px 5px 20px #000,
+      5px 5px 20px #000,
+      0 5px 20px #000;
   }
   .hero a {
     background: rgba(050, 050, 050, 0.75);
     color: #fff;
     font-weight: 500;
     position: absolute;
-    bottom: 1%;
+    bottom: 2%;
     left: 84%;
     /*text-shadow:
       -2px -2px 3px #000,

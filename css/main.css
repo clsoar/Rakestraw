@@ -597,19 +597,24 @@ body {
   /**Hero Section**/
   .hero {
     position: relative;
-    display: inline-block;
+    display: grid;
+    grid-template-columns: [c1] 70% [c2] 25% [c3] 5% [c4];
+    grid-template-rows: [r1] 65% [r2] 25% [r3] 10% [r4];
   }
   .hero img {
     width: 100%;
     display: block;
+    grid-column: c1/c4;
+    grid-row: r1/r4;
   }
   .hero p {
     color: #fff;
     font-weight: 500;
-    padding: 0 8%;
     position: absolute;
-    bottom: 9%;
-    left: 55%;
+    grid-column: c2/c3;
+    grid-row: r2/r3;
+    align-self: end;
+    padding-bottom: 10px;
     text-shadow:
       -5px -5px 20px #000,
       5px -5px 20px #000,
@@ -622,8 +627,10 @@ body {
     color: #fff;
     font-weight: 500;
     position: absolute;
-    bottom: 2%;
-    left: 84%;
+    grid-column: c2/c3;
+    grid-row: r3/r4;
+    margin-right: 25px;
+    justify-self: right;
     /*text-shadow:
       -2px -2px 3px #000,
       2px -2px 3px #000,

@@ -620,6 +620,19 @@ body {
   .mobile-menu-item a {
     color: #44000F;
   }
+  .mobile-services-menu-list {
+    background: #FCFCFC;
+    color: #44000F;
+    width: 95%;
+    top: inherit;
+    border: 2px solid #44000F;
+  }
+  .mobile-services-menu-item {
+    border-bottom: 2px solid #44000F;
+  }
+  .mobile-services-menu-list a {
+    color: #44000F;
+  }
   /**Hero Section**/
   .hero {
     position: relative;

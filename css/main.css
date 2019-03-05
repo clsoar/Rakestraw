@@ -593,6 +593,26 @@ body {
   }
   .large-screen-menu {
     display: block;
+    opacity: 1;
+    font-size: x-large;
+    font-weight: 500;
+  }
+  .mobile-menu-list {
+    background: none;
+    padding: 20px;
+    right: 0;
+    left: inherit;
+    top: inherit;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+  }
+  .mobile-menu-item {
+    padding: 0;
+    border-bottom: none;
+  }
+  .mobile-menu-item a {
+    color: #44000F;
   }
   /**Hero Section**/
   .hero {

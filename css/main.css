@@ -625,7 +625,6 @@ body {
     color: #44000F;
     width: 95%;
     top: inherit;
-    border: 2px solid #44000F;
   }
   .mobile-services-menu-item {
     border-bottom: 2px solid #44000F;
@@ -634,19 +633,19 @@ body {
     color: #44000F;
   }
   /**Hero Section**/
-  .hero {
+  .hero-lg-screen {
     position: relative;
     display: grid;
     grid-template-columns: [c1] 70% [c2] 25% [c3] 5% [c4];
     grid-template-rows: [r1] 65% [r2] 25% [r3] 10% [r4];
   }
-  .hero img {
+  .hero-lg-screen img {
     width: 100%;
     display: block;
     grid-column: c1/c4;
     grid-row: r1/r4;
   }
-  .hero p {
+  .hero-lg-screen p {
     color: #fff;
     font-weight: 500;
     position: absolute;
@@ -661,7 +660,7 @@ body {
       5px 5px 20px #000,
       0 5px 20px #000;
   }
-  .hero a {
+  .hero-lg-screen a {
     background: rgba(050, 050, 050, 0.75);
     color: #fff;
     font-weight: 500;
@@ -679,7 +678,7 @@ body {
     border: 1px solid #000;
     text-decoration: none;
   }
-  .hero span {
+  .hero-lg-screen span {
     padding: 5px 10px;
 
   }

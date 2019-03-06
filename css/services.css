@@ -13,15 +13,16 @@
 }
 
 .hdg-over-img {
-  color: #656565;
+  color: #fff;
   position: absolute;
   top: 45%;
   left: 58%;
   text-shadow:
-    -.5px -.5px 0 #FFF,
-    .5px -.5px 0 #FFF,
-    -.5px .5px 0 #FFF,
-    .5px .5px 0 #FFF;
+    -5px -5px 20px #000,
+    5px -5px 20px #000,
+    -5px 5px 20px #000,
+    5px 5px 20px #000,
+    0 5px 20px #000;
 }
 
 /***********************************************************
@@ -101,12 +102,13 @@
     top: 60%;
     left: 70%;
     text-shadow:
-      -1px -1px 0 #FFF,
-      1px -1px 0 #FFF,
-      -1px 1px 0 #FFF,
-      1px 1px 0 #FFF;
+      -5px -5px 20px #000,
+      5px -5px 20px #000,
+      -5px 5px 20px #000,
+      5px 5px 20px #000,
+      0 5px 20px #000;
   }
-  }
+
   .hero p {
     padding: 2% 10%;
   }
@@ -116,5 +118,31 @@
   .service-ovr-text-group {
     padding: 8% 10%;
     font-size: 1.4em;
+  }
+}
+
+/***********************************************************
+* Media Query for large screens
+************************************************************/
+
+
+@media screen and (min-width: 1100px) {
+  .hero p {
+    padding: 2% 20% 1% 20%;
+  }
+  .hero span {
+    padding: 5px 21%;
+  }
+  .contact-tag::before {
+    width: 62%;
+  }
+  .contact-tag p {
+    width: 40%;
+    text-align: right;
+  }
+  .contact-btn {
+    width: 30%;
+    text-align: left;
+    padding-left: 1%;
   }
 }

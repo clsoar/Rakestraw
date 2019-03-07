@@ -740,8 +740,8 @@ body {
   }
   /***Footer***/
   .main-footer-nav-list{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px; /*20px with projects*/
+    padding-bottom: 40px; /*20px with projects*/
   }
   .lg-screen-services {
     left: 46%;

@@ -20,16 +20,17 @@
 }
 
 .hdg-over-img {
-  color: #656565;
+  color: #FFF;
   position: absolute;
   top: 10%;
   left: 5%;
   font-size: 1.5em;
   text-shadow:
-    -1px -1px 0 #FFF,
-    1px -1px 0 #FFF,
-    -1px 1px 0 #FFF,
-    1px 1px 0 #FFF;
+    -5px -5px 20px #000,
+    5px -5px 20px #000,
+    -5px 5px 20px #000,
+    5px 5px 20px #000,
+    0 5px 20px #000;
 }
 
 .about-hero p {
@@ -130,5 +131,50 @@
   }
   .credential-info::after {
     height: .2em;
+  }
+}
+
+/***********************************************************
+* Media Query for large screens
+************************************************************/
+
+@media screen and (min-width: 1100px) {
+  /***Header***/
+  .hdg-over-img {
+    top: 15%;
+    left: 10%;
+    font-size: 1.8em;
+  }
+  .about-hero p {
+    padding: 10px 20%;
+  }
+  .about-container {
+    padding: 5px 8% 15px 8%;
+  }
+  .about-section-wrapper {
+    padding-bottom: 2%;
+  }
+  #about-section-2 {
+    padding-bottom: 3%;
+  }
+  .credential-info {
+    width: 30vw;
+    padding: 20px 10%;
+  }
+  .credential-info::after {
+    height: 8em;
+    width: 4px;
+    left: 50%;
+    bottom: -89%;
+  }
+  .contact-tag {
+    width: 40%;
+    margin-left: 55%;
+    position: absolute;
+    bottom: -90%;
+    flex-direction: column;
+  }
+  .contact-btn {
+    padding-top: 10px;
   }
 }

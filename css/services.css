@@ -3,7 +3,6 @@
 ************************************************************/
 .services-hero-img-wrapper {
   position: relative;
-  display: inline-block;
 
 }
 
@@ -15,7 +14,7 @@
 .hdg-over-img {
   color: #fff;
   position: absolute;
-  top: 45%;
+  top: 58%;
   left: 58%;
   text-shadow:
     -5px -5px 20px #000,
@@ -37,7 +36,7 @@
 }
 
 .service-overview-pg a {
-  width: 100%
+  width: 100%;
 }
 
 .service-ovr-item-img {
@@ -70,8 +69,9 @@
 
 .service-ovr-text-group a {
   color: #656565;
-  padding: 5px 5px 5px 60vw;
+  padding: 5px 3% 5px 5px;
   font-weight: 440;
+  text-align: right;
 }
 
 /***********************************************************
@@ -87,7 +87,7 @@
   background: #911E2D;
   position: relative;
   display: block;
-  height: .1em;
+  height: 1.5px;
   width: 52%;
   left: 1%;
   top: -.6em;
@@ -119,6 +119,9 @@
     padding: 8% 10%;
     font-size: 1.4em;
   }
+  .contact-tag::before {
+    height: 2px;
+  }
 }
 
 /***********************************************************
@@ -135,6 +138,7 @@
   }
   .contact-tag::before {
     width: 62%;
+    height: 3px;
   }
   .contact-tag p {
     width: 40%;
@@ -144,5 +148,33 @@
     width: 30%;
     text-align: left;
     padding-left: 1%;
+  }
+  /*****Services section*****/
+  /***Service Boxes***/
+  .services-overview-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(10px, auto;)
+  }
+  .service-overview-pg {
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: center;
+  }
+  .service-overview-pg a {
+    width: 80%;
+  }
+  .service-ovr-text-group {
+    width: 95%;
+
+  }
+  .service-ovr-text-group h1{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .service-ovr-text-group a {
+    width: 90%;
+    padding: 0;
+    justify-self: end;
   }
 }

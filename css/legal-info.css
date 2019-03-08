@@ -53,8 +53,8 @@
 @media screen and (min-width: 700px) {
   .legal-section-hdr::before, .legal-section-hdr::after {
     height: 2px;
-    width: 50%;
-    left: 25%;
+    width: 40%;
+    left: 30%;
   }
   .legal-section-hdr::before {
     top: -10px;
@@ -65,5 +65,27 @@
   }
   .legal-hero p {
     padding: 0 20% 10px 20%;
+  }
+}
+
+/***********************************************************
+* Media Query for large screens
+************************************************************/
+
+@media screen and (min-width: 1100px) {
+  .legal-section-hdr::before, .legal-section-hdr::after {
+    height: 2.5px;
+    width: 30%;
+    left: 35%;
+  }
+  .legal-section-hdr::before {
+    top: -11px;
+  }
+
+  .legal-section-hdr::after {
+    bottom: -10px;
+  }
+  .legal-hero p {
+    padding: 0 30% 10px 30%;
   }
 }

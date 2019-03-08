@@ -27,17 +27,17 @@
   background: #911E2D;
   position: absolute;
   display: block;
-  height: .1em;
-  width: 70%;
-  left: 15%;
+  height: .15em;
+  width: 60%;
+  left: 20%;
 }
 
 .eng-section-hdr::before {
-  top: -.4em;
+  top: -9px;
 }
 
 .eng-section-hdr::after {
-  bottom: -.7em;
+  bottom: -10px;
 }
 
 /****Project Management header adjustments ******************/
@@ -55,17 +55,17 @@
   background: #911E2D;
   position: absolute;
   display: block;
-  height: .1em;
+  height: .15em;
   width: 80%;
   left: 10%;
 }
 
 .mgt-section-hdr::before {
-  top: -.4em;
+  top: -9px;
 }
 
 .mgt-section-hdr::after {
-  bottom: -.7em;
+  bottom: -10px;
 }
 
 /*******Styles continued********/
@@ -179,6 +179,28 @@
 * media queries for medium screens
 ************************************************************/
 @media screen and (min-width: 700px) {
+  .eng-section-hdr::before, .eng-section-hdr::after {
+    height: 2px;
+    width: 35%;
+    left: 32%;
+  }
+  .mgt-section-hdr::before, .mgt-section-hdr::after {
+    height: 2px;
+    width: 50%;
+    left: 25%;
+  }
+  .eng-hero p {
+    padding: 2% 20% 1% 20%;
+  }
+  .eng-hero span {
+    padding: 0 5px 5px 65vw;
+  }
+  .eng-hero-img-container {
+    padding-top: 7%;
+  }
+  .img-wrapper-eng {
+    width: 40%;
+  }
   /*center services offered section*/
   .services-offered-container h2{
     text-align: center;
@@ -198,14 +220,31 @@
 
 
 @media screen and (min-width: 1100px) {
-  .hero p {
-    padding: 2% 20% 1% 20%;
+  .eng-section-hdr::before, .eng-section-hdr::after {
+    height: 2.5px;
+    width: 25%;
+    left: 37%;
+    }
+    .mgt-section-hdr::before, .mgt-section-hdr::after {
+      height: 2.5px;
+      width: 40%;
+      left: 30%;
+    }
+  .eng-hero p {
+    padding: 2% 25% 1% 25%;
   }
-  .hero span {
-    padding: 5px 21%;
+  .eng-hero span {
+    padding: 0 5px 5px 65vw;
+  }
+  .eng-hero-img-container {
+    padding-top: 5%;
+  }
+  .img-wrapper-eng {
+    width: 30%;
   }
   .contact-tag::before {
     width: 62%;
+    height: 3px;
   }
   .contact-tag p {
     width: 40%;

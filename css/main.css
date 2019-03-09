@@ -179,13 +179,7 @@ body {
   color: #F3F3F3;
   font-size: 1em;
 }
-/*Focus and hover submenu help from https://css-tricks.com/solved-with-css-dropdown-menus/ */
-#services-item:hover > ul,
-ul li:focus-within > ul,
-ul li ul:hover {
-  display: block;
-  opacity: 1;
-}
+
 
 .mobile-services-menu-list {
   list-style-type: none;
@@ -630,7 +624,7 @@ ul li ul:hover {
     background: #FCFCFC;
     color: #44000F;
     width: 50%;
-    top: 15px;
+    top: 45px;
     left: 25%;
   }
   .mobile-services-menu-item {
@@ -639,6 +633,18 @@ ul li ul:hover {
   .mobile-services-menu-list a {
     color: #44000F;
     font-size: 1.1em;
+  }
+  /*Focus and hover submenu help from https://css-tricks.com/solved-with-css-dropdown-menus/ */
+  #services-item:hover > ul,
+  ul li:focus-within > ul,
+  ul li ul:hover {
+    display: block;
+    opacity: .9;
+  }
+  .submenu-wrapper {
+    display: hidden;
+    opacity: 0;
+    visibility: hidden;
   }
   /**Hero Section**/
   .hero-lg-screen {

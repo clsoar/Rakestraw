@@ -40,9 +40,9 @@
           <li class="mobile-menu-item">
             <a href="about.html">About</a>
           </li>
-          <li id="services-item" class="mobile-menu-item">
+          <li id="services-item" class="mobile-menu-item" aria-haspopup="true">
             <a href="#">Services</a>
-            <ul class="mobile-services-menu-list hidden">
+            <ul class="mobile-services-menu-list hidden" aria-label="submenu">
               <li id="back-btn" class="mobile-services-menu-item submenu-wrapper">
                 <a class="back-arrow" tabindex="-1" href="#">&nbsp;<&nbsp;</a>
                 <a class="back-link" href="#">Back</a>
@@ -131,8 +131,8 @@
         <li class="ftr-company-name">
           <a href="index.html">Rakestraw, Ltd.</a>
         </li>
-        <span class="vertical-ftr-line"></span>
-        <div class="main-footer-nav-items">
+        <span aria-hidden="true" class="vertical-ftr-line"></span>
+        <div role="list" class="main-footer-nav-items">
           <li class="main-footer-nav-item">
             <a href="about.html">About</a>
           </li>
@@ -140,7 +140,7 @@
             <a href="services.html">Services</a>
           </li>
           <!--these specific service items visible on medium screens and above-->
-          <div class="lg-screen-footer">
+          <div role="list" class="lg-screen-footer">
             <li class="main-footer-nav-item">
               <a href="engineering.html">Engineering</a>
             </li>
@@ -152,7 +152,7 @@
             </li>
           </div>
           <!--vertical line for large screens only -->
-          <span class="vertical-ftr-line-lg"></span>
+          <span aria-hidden="true" class="vertical-ftr-line-lg"></span>
 
           <!-- ****Save this for when projects are added***
           <li class="main-footer-nav-item">

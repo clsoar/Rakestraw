@@ -178,13 +178,20 @@ body {
   background: #44000F;
   color: #F3F3F3;
   font-size: 1em;
-
+}
+/*Focus and hover submenu help from https://css-tricks.com/solved-with-css-dropdown-menus/ */
+#services-item:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover {
+  display: block;
+  opacity: 1;
 }
 
 .mobile-services-menu-list {
   list-style-type: none;
   background: #44000F;
   color: #F3F3F3;
+  font-size: 1em;
   padding: 0;
   position: absolute;
   width: 100%;

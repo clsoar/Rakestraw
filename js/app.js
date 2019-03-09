@@ -2,7 +2,7 @@ const hamburgerMenu = document.querySelector("#hamburger-menu");
 const mobileMenu = document.querySelector(".mobile-menu");
 const hamburger = document.querySelector(".hamburger");
 const servicesSelector = document.querySelector("#services-item");
-const mobileServicesMenu = document.querySelector(".mobile-services-menu");
+const mobileServicesMenu = document.querySelector(".mobile-services-menu-list");
 const mobileMenuBack = document.querySelector("#back-btn");
 
 

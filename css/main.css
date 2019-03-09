@@ -622,14 +622,16 @@ body {
   .mobile-services-menu-list {
     background: #FCFCFC;
     color: #44000F;
-    width: 95%;
-    top: inherit;
+    width: 50%;
+    top: 15px;
+    left: 25%;
   }
   .mobile-services-menu-item {
-    border-bottom: 2px solid #44000F;
+    border-bottom: 2px solid #911E2D;
   }
   .mobile-services-menu-list a {
     color: #44000F;
+    font-size: 1.1em;
   }
   /**Hero Section**/
   .hero-lg-screen {

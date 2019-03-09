@@ -106,5 +106,27 @@
   .contact-form textarea {
     font-size: 1.1em;
   }
+}
 
+/***********************************************************
+* Media Query for large screens
+************************************************************/
+
+@media screen and (min-width: 1100px) {
+  .main-contact {
+    display: flex;
+    align-items: center;
+    padding: 5px 15%;
+  }
+  .contact-intro {
+    margin-top: 0;
+    width: 50%;
+  }
+  .contact-form-section {
+    width: 50%;
+  }
+  .contact-form {
+    margin-top: 3em;
+    max-width: 100%;
+  }
 }

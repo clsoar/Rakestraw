@@ -777,14 +777,14 @@ body {
     border-left: 2px solid #E49533;
     position: absolute;
     left: 35%;
-    bottom: 17%; /*18% with projects*/
+    bottom: 20%; /*18% with projects*/
     height: 90px; /*100px with projects*/
   }
   .vertical-ftr-line-lg {
     border-left: 2px solid #E49533;
     position: absolute;
     left: 71%;
-    bottom: 17%; /*18% with projects*/
+    bottom: 20%; /*18% with projects*/
     height: 90px; /*100px with projects*/
   }
 }

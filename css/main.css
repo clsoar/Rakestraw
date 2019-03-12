@@ -384,16 +384,16 @@ body {
 }
 
 .contact-tag p {
-  padding: 2px 5%;
+  padding: 2px 0px;
   font-weight: 500;
   font-size: .8em;
-  width: 50%;
+  width: 60%;
   text-align: center;
 
 }
 
 .contact-btn {
-  width: 30%;
+  width: 40%;
   text-align: left;
 }
 
@@ -528,9 +528,11 @@ body {
   /**Contact button**/
   .contact-tag p {
     font-size: 1.1em;
+    width: 60%;
   }
   .contact-btn {
     font-size: 1.2em;
+    width: 30%;
   }
   /***Footer***/
   .lg-screen-services {

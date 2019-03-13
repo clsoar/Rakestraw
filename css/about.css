@@ -145,8 +145,15 @@
     left: 10%;
     font-size: 1.8em;
   }
+  .about-hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
   .about-hero p {
-    padding: 10px 20%;
+    padding: 10px 2%;
+    display: inline;
   }
   .about-container {
     padding: 5px 8% 15px 8%;

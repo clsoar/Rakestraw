@@ -124,6 +124,7 @@
   margin: 0;
   padding: 10px;
   text-align: center;
+  width: 100%;
 }
 
 .social-media {
@@ -183,6 +184,9 @@
   .contact-form textarea {
     font-size: 1.1em;
   }
+  .modal-close {
+    width: 40%;
+  }
 }
 
 /***********************************************************
@@ -205,5 +209,11 @@
   .contact-form {
     margin-top: 3em;
     max-width: 100%;
+  }
+  .submit-modal {
+    width: 100%;
+  }
+  .modal-close {
+    width: 30%;
   }
 }

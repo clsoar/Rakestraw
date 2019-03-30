@@ -1,0 +1,27 @@
+.header {
+  border-bottom: 2px solid #911E2D;
+}
+
+.submitted-intro {
+  text-align: center;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+}
+
+/**********Paragraph break lines************/
+
+.submit-text {
+  position: relative;
+  padding: 5% 8vw 10px 8vw;
+  font-size: 1.5em;
+}
+
+.submit-text::before, .submit-text::after {
+  content: "";
+  background: #911E2D;
+  position: absolute;
+  display: block;
+  height: .1em;
+  width: 50%;
+  left: 25%;
+}

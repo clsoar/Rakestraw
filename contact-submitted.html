@@ -10,7 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Providing professional engineering, project management, and inspections services to the Texas Gulf Coast.">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/contact-submitted.css">
 
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
 
@@ -80,36 +80,24 @@
 
   </header>
 
-  <main class="main-contact">
+  <main class="main-submitted">
 
-    <section class="contact-intro">
-      <h1>Get in touch with an expert</h1>
-      <a href="https://www.linkedin.com/company/rakestraw-ltd/about/" rel=”noopener noreferrer” target="_blank" aria-label="link to Rakestraw LinkedIn"><img src="img/icon-linkedin.svg" alt="linkedin logo"></a>
-      <div class="form-intro-wrapper">
-        <h2>Send us a message.</h2>
+    <section class="submitted-intro">
+
+      <!--Popup for form submission-->
+      <div class="submit-wrapper" role="">
+        <div class="submit-text " role="">
+          <p>Your message has been sent.</p>
+          <p>We look forward to discussing your project with you.</p>
+          <p>You can expect a reply within 12 hours.</p>
+        </div>
+        <div class="social-media">
+            <p>You can also connect with us on LinkedIn</p>
+            <a href="https://www.linkedin.com/company/rakestraw-ltd/people/" aria-label="link to Rakestraw LinkedIn"><img src="img/icon-linkedin.svg" alt="linkedin logo"></a>
+        </div>
+  
       </div>
-      <p>You can expect a response within 12 hours.</p>
-    </section>
-    <section class="contact-form-section">
-      <form class="contact-form" id="contact-form" method="post">
-        <label for="client-name">Name</label>
-        <input required type="text" id="client-name" name="client-name" placeholder="Your Name">
-        <label for="email">Email Address</label>
-        <input required type="email" id="ltyl7" name="email" placeholder="youremail@domain.com">
-        <label for="phone">Phone Number</label>
-        <input type="tel" id="phone" name="phone" placeholder="(XXX) XXX-XXXX">
-        <label for="*subject">Subject</label>
-        <input type="text" id="subject" name="*subject" placeholder="Subject Line">
-        <!-- Extra input fields for form submission service -->
-        <input class="last-name" autocomplete="off" type="text" id="last-name" name="last-name" placeholder="last name here">
-        <input type="text" id="password" name="a_password" style="display:none !important" tabindex="-1" autocomplete="off">
-
-        <!-- End extra fields -->
-        <label for="message">Message</label>
-        <textarea required id="message" name="message" rows="12" cols="80" placeholder="I would like to discuss a project."></textarea>
-        <input aria-hidden="true" class="first-name" autocomplete="off" type="text" id="first-name" name="honeypot" value="Do not change">
-        <button id="form-submit-btn" aria-label="Submit Form" type="submit" name="button">Submit</button>
-      </form>
+      <div class="modal-overlay hidden" id="modal-overal" tabindex="-1"></div>
     </section>
 
   </main>
@@ -167,6 +155,9 @@
       </ul>
     </nav>
   </footer>
+
+
+
 
   <script type="text/javascript" src="js/app.js">
 

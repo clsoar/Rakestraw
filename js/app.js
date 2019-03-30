@@ -35,6 +35,10 @@ mobileMenuBack.addEventListener("click", (evt) => {
 });
 
 //honeypot for form submission
+const contactform =  document.getElementById('contact-form');
+
+
+
 
 if(formSubmitBtn) {
   //hide honeypot

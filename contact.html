@@ -91,17 +91,17 @@
       <p>You can expect a response within 12 hours.</p>
     </section>
     <section class="contact-form-section">
-      <form class="contact-form" id="contact-form" action="index.html" method="post">
+      <form class="contact-form" id="contact-form" action="index.html" method="post" action="https://clsoar.github.io/Rakestraw/contact.html">
         <label for="name">Name</label>
-        <input type="text" id="name" name="name" placeholder="Your Name">
+        <input required type="text" id="name" name="name" placeholder="Your Name">
         <label for="email">Email Address</label>
-        <input type="email" id="email" name="email" placeholder="youremail@domain.com">
+        <input required type="email" id="email" name="email" placeholder="youremail@domain.com">
         <label for="phone">Phone Number</label>
         <input type="tel" id="phone" name="phone" placeholder="(XXX) XXX-XXXX">
         <label for="subject">Subject</label>
         <input type="text" id="subject" name="subject" placeholder="Subject Line">
         <label for="message">Message</label>
-        <textarea id="message" name="message" rows="12" cols="80" placeholder="I would like to discuss a project."></textarea>
+        <textarea required id="message" name="message" rows="12" cols="80" placeholder="I would like to discuss a project."></textarea>
         <button id="form-submit-btn" aria-label="Submit Form" type="submit" name="button">Submit</button>
       </form>
     </section>

@@ -30,9 +30,9 @@ mobileMenuBack.addEventListener("click", (evt) => {
   console.log("it's clicked");
 });
 
+/*
 if(formSubmitBtn) {
   formSubmitBtn.addEventListener("click", (evt) => {
-    evt.preventDefault();
     openModal();
   });
 }
@@ -99,4 +99,4 @@ openModal = () => {
 
 
 
-}
+}*/

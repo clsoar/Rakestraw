@@ -98,16 +98,15 @@
         <input required type="email" id="ltyl7" name="email" placeholder="youremail@domain.com">
         <label for="phone">Phone Number</label>
         <input type="tel" id="phone" name="phone" placeholder="(XXX) XXX-XXXX">
-        <label for="*subject">Subject</label>
-        <input type="text" id="subject" name="*subject" placeholder="Subject Line">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="Subject Line">
+        <label for="message">Message</label>
+        <textarea required id="message" name="message" rows="12" cols="80" placeholder="I would like to discuss a project."></textarea>
         <!-- Extra input fields for form submission service -->
         <input class="last-name" autocomplete="off" type="text" id="last-name" name="last-name" placeholder="last name here">
         <input type="text" id="password" name="a_password" style="display:none !important" tabindex="-1" autocomplete="off">
-
-        <!-- End extra fields -->
-        <label for="message">Message</label>
-        <textarea required id="message" name="message" rows="12" cols="80" placeholder="I would like to discuss a project."></textarea>
         <input aria-hidden="true" class="first-name" autocomplete="off" type="text" id="first-name" name="honeypot" value="Do not change">
+        <!-- End extra fields -->
         <button id="form-submit-btn" aria-label="Submit Form" type="submit" name="button">Submit</button>
       </form>
     </section>

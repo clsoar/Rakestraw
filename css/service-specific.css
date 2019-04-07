@@ -135,7 +135,7 @@
 }
 
 .services-offered-list {
-
+  width
 }
 
 .service-item {
@@ -211,9 +211,14 @@
   .services-offered-list {
     list-style-position: inside;
     text-align: center;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .services-offered-list {
     padding: 0 0 0 0;
+    text-align: left;
+
   }
 }
 

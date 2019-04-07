@@ -140,7 +140,10 @@
 
 .service-item {
   padding: 3px;
+}
 
+.service-item i {
+  font-weight: 450;
 }
 
 .service-process-container {

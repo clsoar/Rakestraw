@@ -250,6 +250,11 @@
   .img-wrapper-eng {
     width: 30%;
   }
+  .service-info-container {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .contact-tag::before {
     width: 62%;
     height: 3px;

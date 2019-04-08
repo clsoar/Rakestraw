@@ -794,13 +794,13 @@ body {
     padding: 1% 5px 0 11%;
   }
   #linkedin-ftr {
-    top: 70%;
+    top: 61%;
     left: 84.5%;
   }
   #ftr-contact-item {
     position: absolute;
     left: 82%;
-    bottom: 38%; /*40% with projects*/
+    bottom: 54%;
   }
   #ftr-contact-item a {
     color: #44000F;

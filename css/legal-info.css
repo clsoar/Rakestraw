@@ -42,8 +42,16 @@
 
 /********paragraph styling *************/
 
+.legal-hero h3 {
+  text-align: center;
+}
+
 .legal-hero p {
    padding: 0 15% 10px 15%;
+}
+
+.legal-hero ol {
+  padding: 0 15% 10px 15%;
 }
 
 /***********************************************************

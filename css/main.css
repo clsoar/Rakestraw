@@ -250,7 +250,9 @@ body {
   margin-bottom: 1px;
   font-size: 1.8em;
   font-weight: 300;
-
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero span {
@@ -506,6 +508,10 @@ body {
     height: 44px;
     padding: 7px 38px;
   }
+  /***Hero Section***/
+  .hero p {
+    max-width: 550px;
+  }
   /***Services Section***/
   .services-section-hdr {
     border-top: 2px solid #911E2D;
@@ -674,6 +680,7 @@ body {
   .hero-lg-screen p {
     color: #fff;
     font-weight: 500;
+    width: 300px;
     position: absolute;
     grid-column: c2/c3;
     grid-row: r2/r3;

@@ -27,13 +27,11 @@ hamburgerMenu.addEventListener("click", (evt) => {
 servicesSelector.addEventListener("click", (evt) => {
   mobileServicesMenu.classList.remove("hidden");
   mobileServicesMenu.classList.add("show-submenu");
-  console.log("open sub menu");
 });
 
 mobileMenuBack.addEventListener("click", (evt) => {
   mobileServicesMenu.classList.add("hidden");
   mobileServicesMenu.classList.remove("show-submenu");
-  console.log("arrow is clicked");
 });
 
 

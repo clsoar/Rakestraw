@@ -246,7 +246,7 @@ body {
 }
 
 .hero p {
-  padding: 5px 25px;
+  padding: 5px 15px;
   margin-bottom: 1px;
   font-size: 1.8em;
   font-weight: 300;
@@ -511,6 +511,7 @@ body {
   /***Hero Section***/
   .hero p {
     max-width: 550px;
+    padding: 5px 25px;
   }
   /***Services Section***/
   .services-section-hdr {

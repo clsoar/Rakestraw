@@ -57,6 +57,11 @@
   padding: 0 10% 10px 10%;
 }
 
+.copy-hero p {
+  padding: 0 10% 10px 10%;
+  text-align: center;
+}
+
 .legal-hero ol {
   padding: 0 15% 10px 15%;
 }

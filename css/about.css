@@ -81,6 +81,7 @@
   font-weight: 400;
   font-size: 1.2em;
   padding: 15px 0;
+  max-width: 640px; /*new change*/
 }
 
 
@@ -131,19 +132,36 @@
 ************************************************************/
 @media screen and (min-width: 700px){
   .hdg-over-img {
-    font-size: 1.6em;
+    font-size: 2.6em; /*1.6/*/
   }
-  .about-hero p{
-    padding: 5px 10%;
+  .about-hero p {
+    padding: 5% 10%; /*5px 10%*/
+    font-size: 2.3em; /*1.6*/
+    max-width: 800px; /*new change*/
+
   }
   .about-text-group {
     padding: 5%;
   }
+
+  #about-lead-section p {
+    font-size: 2em; /*1.4*/
+  }
+  .about-text-group-mid {
+    padding: 7% 15%; /*new change*/
+  }
+  #about-section-2 p {
+    font-size: 1.8em; /*1.2*/
+  }
+
   .credential-info {
-    padding: 20px 20% 10px 20%;
+    padding: 20px 10% 10px 10%; /*20px 20% 10px 20%;*/
+    font-size: 1.2em; /*new change*/
+
   }
   .credential-info p {
     margin-bottom: 2em;
+    max-width: 1200px; /*new change*/
   }
   .credential-info::after {
     height: .2em;
@@ -157,9 +175,9 @@
 @media screen and (min-width: 1100px) {
   /***Header***/
   .hdg-over-img {
-    top: 15%;
-    left: 10%;
-    font-size: 1.8em;
+    top: 11%; /*15%*/
+    left: 5%; /*10%*/
+    font-size: 3.8em; /*1.8*/
   }
   .about-hero {
     display: flex;
@@ -169,6 +187,8 @@
 
   .about-hero p {
     display: inline;
+    font-size: 2.6em; /*1.6*/
+
   }
   .about-container {
     padding: 5px 8% 15px 8%;
@@ -176,11 +196,22 @@
   .about-section-wrapper {
     padding-bottom: 2%;
   }
+  #about-lead-section p {
+    font-size: 2.4em; /*1.4*/
+  }
+
+
+
   #about-section-2 {
     padding-bottom: 3%;
   }
+  #about-section-2 p {
+    font-size: 2.2em; /*1.2*/
+  }
+
   .credential-info {
-    padding: 20px 30%;
+    padding: 20px 16%;/*20px 30%*/
+    font-size: 2em; /*1*/
 
   }
   .credential-info::after {

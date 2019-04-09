@@ -593,10 +593,15 @@ body {
   }
   .legal-nav-item:first-child {
     border-right: 1px solid white;
+    min-width: 42px;
 
   }
-  .legal-nav-item:last-child {
-    border-left: 1px solid white;
+  .legal-nav-item:nth-child(2) {
+    border-right: 1px solid white;
+    min-width: 135px;
+  }
+  .legal-nav-item:nth-child(3) {
+    min-width: 67px;
   }
 }
 

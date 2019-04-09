@@ -131,6 +131,21 @@
 
 
 @media screen and (min-width: 1100px) {
+  /*new changes to scale images better
+  .services-hero-img-wrapper {
+    height: 64vh;
+    overflow: hidden;
+  }
+  .hdg-over-img {
+    z-index: 1;
+  }
+  .services-hero-img {
+    object-fit: contain;
+    position: absolute;
+    top: -22%;
+
+  }
+  *end new changes****/
   .hero p {
     padding: 2% 20% 1% 20%;
   }

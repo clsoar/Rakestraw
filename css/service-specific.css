@@ -5,7 +5,7 @@
 /**********Heading styling and break lines************/
 
 .eng-hero {
-  width: 100vw;
+  width: 100%;
   margin-bottom: 2em;
 }
 
@@ -79,7 +79,7 @@
 }
 
 .eng-hero span {
-  padding: 0 5px 5px 70vw;
+  padding: 0 5px 5px 70%;
 }
 
 .eng-hero a {
@@ -196,7 +196,7 @@
     padding: 2% 20% 1% 20%;
   }
   .eng-hero span {
-    padding: 0 5px 5px 65vw;
+    padding: 0 5px 5px 65%;
   }
   .eng-hero-img-container {
     padding-top: 7%;
@@ -242,7 +242,7 @@
     padding: 2% 25% 1% 25%;
   }
   .eng-hero span {
-    padding: 0 5px 5px 65vw;
+    padding: 0 5px 5px 65%;
   }
   .eng-hero-img-container {
     padding-top: 5%;

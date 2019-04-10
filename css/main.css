@@ -550,40 +550,52 @@ body {
   /***Footer***/
   .lg-screen-services {
     position: absolute;
-    left: 65%;
-    bottom: 65%;
+    left: 70%; /*65*/
+    bottom: 53%; /*65*/
     font-size: 1.3em;
     font-weight: 500;
   }
 
   .lg-screen-footer {
     position: absolute;
-    left: 67%;
-    bottom: 10%; /*15% with projects*/
+    left: 70.5%; /*67*/
+    bottom: 4%; /*10*/
     display: block;
     font-size: 1em;
   }
   .main-footer-nav-items {
     padding-left: 16%;
-    padding-bottom: 15px;
+    padding-bottom: 28px; /*15*/
   }
   .ftr-company-name {
     font-size: 1.4em;
     font-weight: 500;
-    padding: 3% 5px 0 14%;
+    padding: 35px 5px 0 16%;
   }
+  .ftr-company-name a {
+    top: -22px;
+    position: relative;
+  }
+
   #linkedin-ftr {
-    top: 6%;
-    left: 93%;
+    top: 65%;
+    left: 17%;
   }
   .ftr-company-name::after {
     display: none;
+  }
+  .main-footer-nav-item {
+    padding: 3px 3px;
+  }
+  .main-footer-nav-item a {
+    position: relative;
+    top: -26px;
   }
   .vertical-ftr-line {
     border-left: 2px solid #E49533;
     position: absolute;
     left: 51%;
-    bottom: 17%; /*18% with projects*/
+    bottom: 23%; /*18% with projects*/
     height: 90px; /*100px with projects*/
   }
   .legal-nav-list {
@@ -805,25 +817,33 @@ body {
     padding-bottom: 40px; /*20px with projects*/
   }
   .lg-screen-services {
-    left: 46%;
+    left: 47%;
     bottom: 65%; /*65% with projects*/
   }
   .lg-screen-footer {
-    left: 47.5%;
+    left: 47%;
     bottom: 13%; /*13% with projects*/
   }
   .main-footer-nav-items {
-    padding-left: 13%;
+    padding-left: 11%;
   }
   .main-footer-nav-item {
     padding: 4px 5px;
   }
+  .main-footer-nav-item a {
+    position: static;
+    top: auto;
+  }
   .ftr-company-name {
     padding: 1% 5px 0 11%;
   }
+  .ftr-company-name a {
+    top: auto;
+    position: static;
+  }
   #linkedin-ftr {
     top: 61%;
-    left: 84.5%;
+    left: 85%;
   }
   #ftr-contact-item {
     position: absolute;

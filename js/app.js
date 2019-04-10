@@ -25,8 +25,8 @@ hamburgerMenu.addEventListener("click", (evt) => {
 });
 
 servicesSelector.addEventListener("click", (evt) => {
-  mobileServicesMenu.classList.remove("hidden");
-  mobileServicesMenu.classList.add("show-submenu");
+  mobileServicesMenu.classList.toggle("hidden");
+  mobileServicesMenu.classList.toggle("show-submenu");
 });
 
 mobileMenuBack.addEventListener("click", (evt) => {

@@ -352,7 +352,7 @@ body {
 * Trailing Info Paragraph
 ************************************************************/
 .trailing-info {
-  padding: 5% 8vw 10px 8vw;
+  padding: 5% 8% 10px 8%;
   font-size: 1.5em;
 }
 
@@ -630,36 +630,52 @@ body {
     font-weight: 500;
   }
   .mobile-menu-list {
+    list-style-type: none;
     background: none;
-    padding: 20px;
     right: 0;
     left: inherit;
-    top: inherit;
+    top: 20px;
     display: flex;
-    justify-content: space-evenly;
-    width: 45%;
+    padding-inline-start: 0;
+    position: relative;
   }
   .mobile-menu-item {
-    padding: 0;
+    padding: 0 8%;
     border-bottom: none;
+
   }
   .mobile-menu-item:first-child {
     display: none;
   }
   .mobile-menu-item a {
     color: #44000F;
+    text-decoration: none;
   }
   .mobile-services-menu-list {
     background: #FCFCFC;
     color: #44000F;
-    width: 50%;
-    top: 45px;
-    left: 25%;
+    width: 300px;
+    top: 48px;
+    left: 72px;
+    list-style-type: none;
+    position: absolute;
+    padding-inline-start: 0;
+
   }
   .mobile-services-menu-item {
     border-bottom: 2px solid #911E2D;
+    text-align: center;
+    padding: 8px;
   }
-  .mobile-services-menu-list a {
+
+  .movile-services-menu-item a {
+    text-decoration: none;
+  }
+  #back-btn {
+    display: none;
+  }
+
+  .lg-services-menu-list a {
     color: #44000F;
     font-size: 1.1em;
   }
@@ -669,6 +685,7 @@ body {
   ul li ul:hover {
     display: block;
     opacity: .9;
+    z-index: 2;
   }
   .submenu-wrapper {
     display: hidden;
@@ -763,7 +780,7 @@ body {
 
   /***Trailing Info***/
   .trailing-info {
-    padding: 5% 30vw 10px 30vw;
+    padding: 5% 30% 10px 30%;
   }
   .trailing-info::before, .trailing-info::after {
     width: 30%;

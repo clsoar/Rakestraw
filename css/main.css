@@ -684,64 +684,7 @@ body {
     opacity: 1;
     display: block;
   }
-  /*
-  .large-screen-menu {
-    display: block;
-    opacity: 1;
-    font-size: x-large;
-    font-weight: 500;
-  }
-  .mobile-menu-list {
-    list-style-type: none;
-    background: none;
-    right: 0;
-    left: inherit;
-    top: 20px;
-    display: flex;
-    padding-inline-start: 0;
-    position: relative;
-  }
-  .mobile-menu-item {
-    padding: 0 8%;
-    border-bottom: none;
 
-  }
-  .mobile-menu-item:first-child {
-    display: none;
-  }
-  .mobile-menu-item a {
-    color: #44000F;
-    text-decoration: none;
-  }
-  .mobile-services-menu-list {
-    background: #FCFCFC;
-    color: #44000F;
-    width: 300px;
-    top: 48px;
-    left: 72px;
-    list-style-type: none;
-    position: absolute;
-    padding-inline-start: 0;
-
-  }
-  .mobile-services-menu-item {
-    border-bottom: 2px solid #911E2D;
-    text-align: center;
-    padding: 8px;
-  }
-
-  .movile-services-menu-item a {
-    text-decoration: none;
-  }
-  #back-btn {
-    display: none;
-  }
-
-  .lg-services-menu-list a {
-    color: #44000F;
-    font-size: 1.1em;
-  }
-  */
   /*Focus and hover submenu help from https://css-tricks.com/solved-with-css-dropdown-menus/ */
   #lg-services-item:hover > ul,
   ul li:focus-within > ul,

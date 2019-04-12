@@ -229,6 +229,51 @@ body {
   opacity: 1;
 }
 
+
+/***********************************************************
+* Large Screen Top Navigation Bar
+************************************************************/
+
+.large-screen-menu {
+  font-size: x-large;
+  font-weight: 500;
+}
+
+.lg-menu-list {
+  display: flex;
+  justify-content: space-around;
+  padding-inline-start: 0;
+  list-style-type: none;
+  width: 400px;
+  margin-block-end: 0;
+}
+.lg-menu-item a {
+  color: #44000F;
+  text-decoration: none;
+}
+
+.lg-services-menu-list {
+  background: #FCFCFC;
+  color: #44000F;
+  width: 300px;
+  padding-inline-start: 0;
+  list-style-type: none;
+  top: 25px;
+  left: -97px;
+  list-style-type: none;
+  position: absolute;
+  padding-top: 20px;
+}
+
+.lg-services-menu-item {
+  border-bottom: 2px solid #911E2D;
+  text-align: center;
+  padding: 8px;
+}
+
+#lg-services-item {
+  position: relative;
+}
 /***********************************************************
 * Main Section
 ************************************************************/
@@ -636,6 +681,11 @@ body {
     display: none;
   }
   .large-screen-menu {
+    opacity: 1;
+    display: block;
+  }
+  /*
+  .large-screen-menu {
     display: block;
     opacity: 1;
     font-size: x-large;
@@ -691,19 +741,21 @@ body {
     color: #44000F;
     font-size: 1.1em;
   }
+  */
   /*Focus and hover submenu help from https://css-tricks.com/solved-with-css-dropdown-menus/ */
-  #services-item:hover > ul,
+  #lg-services-item:hover > ul,
   ul li:focus-within > ul,
   ul li ul:hover {
     display: block;
     opacity: .9;
     z-index: 2;
   }
+
   .submenu-wrapper {
     display: hidden;
     opacity: 0;
     visibility: hidden;
-  }
+
   /**Hero Section**/
   .hero-lg-screen {
     position: relative;

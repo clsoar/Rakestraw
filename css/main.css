@@ -405,6 +405,7 @@ body {
 
 .trailing-info p {
   position: relative;
+  text-align: center;
 }
 
 .trailing-info::before, .trailing-info::after {
@@ -791,7 +792,7 @@ body {
   }
   .trailing-info::before, .trailing-info::after {
     width: 30%;
-    left: 33.5%;
+    left: 35%;
   }
   /***Contact Tag***/
   .contact-tag {

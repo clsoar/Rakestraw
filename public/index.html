@@ -1,65 +1,250 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
+<!doctype html>
+<html lang="en">
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/5.9.4/firebase-app.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/5.9.4/firebase-auth.js"></script>
-    <script defer src="/__/firebase/5.9.4/firebase-database.js"></script>
-    <script defer src="/__/firebase/5.9.4/firebase-messaging.js"></script>
-    <script defer src="/__/firebase/5.9.4/firebase-storage.js"></script>
-    <!-- initialize the SDK after all desired features are loaded -->
-    <script defer src="/__/firebase/init.js"></script>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Professional Engineering Services | Texas Gulf Coast | Rakestraw, Ltd.</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Providing professional engineering, project management, and technical services to the Texas Gulf Coast.">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
 
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
-  </head>
-  <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
+
+
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <header class="header">
+    <div class="logo">
+      <a href="index.html">
+        <img class="logo-img"src="img/logo.png" alt="Rakestraw logo, click to go home">
+
+      </a>
     </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
+    <nav class="main-nav">
+      <button aria-label="menu" id="hamburger-menu" class="hamburger-menu" type="button" name="menu">
+          <span class="hamburger"></span>
+      </button>
+      <div class="mobile-menu hidden">
+        <ul class="mobile-menu-list">
+          <li class="mobile-menu-item">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a href="about.html">About</a>
+          </li>
+          <li id="services-item" class="mobile-menu-item">
+            <a href="#">Services</a>
+            <ul class="mobile-services-menu-list hidden">
+              <li id="back-btn" class="mobile-services-menu-item submenu-wrapper">
+                <a class="back-arrow" tabindex="-1" href="#">&nbsp;<&nbsp;</a>
+                <a class="back-link" href="#">Back</a>
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+              </li>
+              <li class="mobile-services-menu-item">
+                <a href="services.html">Services Overview</a>
+              </li>
+              <li class="mobile-services-menu-item">
+                <a href="engineering.html">Engineering</a>
+              </li>
+              <li class="mobile-services-menu-item">
+                <a href="project-management.html">Project Management</a>
+              </li>
+              <li class="mobile-services-menu-item">
+                <a href="technical-services.html">Technical Services</a>
+              </li>
+            </ul>
+          </li>
 
-        try {
-          let app = firebase.app();
-          let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
-          document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
-  </body>
+          <!-- ****Save this for when projects are added***
+          <li class="mobile-menu-item">
+            <a href="projects.html">Projects</a>
+          </li>
+          -->
+          <li class="mobile-menu-item">
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="lg-menu hidden large-screen-menu">
+        <ul class="lg-menu-list">
+          <li class="lg-menu-item">
+            <a href="about.html">About</a>
+          </li>
+          <li id="lg-services-item" class="lg-menu-item">
+            <a href="#">Services</a>
+            <ul class="lg-services-menu-list hidden">
+              <li class="lg-services-menu-item">
+                <a href="services.html">Services Overview</a>
+              </li>
+              <li class="lg-services-menu-item">
+                <a href="engineering.html">Engineering</a>
+              </li>
+              <li class="lg-services-menu-item">
+                <a href="project-management.html">Project Management</a>
+              </li>
+              <li class="lg-services-menu-item">
+                <a href="technical-services.html">Technical Services</a>
+              </li>
+            </ul>
+          </li>
+
+          <!-- ****Save this for when projects are added***
+          <li class="lg-menu-item">
+            <a href="projects.html">Projects</a>
+          </li>
+          -->
+          <li class="lg-menu-item">
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+
+  </header>
+
+  <main>
+    <section class="hero hero-lg-screen">
+      <img class="hero-img" src="img/construction-dirt-o.jpg" alt="New construction site with excavator digging in red dirt. Backdrop is piney woods and blue sky.">
+      <p>Navigating complexity. Engineering value. Realizing your goals.</p>
+      <a href="contact.html">
+        <span>Contact Us</span>
+      </a>
+    </section>
+    <section class="services-section">
+      <header class="services-section-hdr-tag">
+        <div class="services-section-hdr">
+          <a href="services.html">Services</a>
+        </div>
+      </header>
+      <div class="services-container">
+
+        <div class="service-homepage" id="eng-hm-pg">
+          <a href="engineering.html"><img class="service-item-img" src="img/ideas/cad-drawing.svg" alt="CAD generated image"></a>
+          <div class="service-text-group">
+            <h1>Engineering</h1>
+            <p>Our professionals are able to create and deliver results to achieve your goals efficiently.</p><p>From developing requirements to feasibility, conceptualization, detailing, and production engineering, our team has the skills to turn your ideas into reality.</p>
+            <div class="homepage-learn-more">
+              <a href="engineering.html">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="service-homepage" id="prj-mgt-hm-pg">
+          <a href="project-management.html"><img class="service-item-img" src="img/ideas/agenda.svg" alt="Bar chart schedule with 3 figures next to chart."></a>
+          <div class="service-text-group">
+            <h1>Project Management</h1>
+            <p>Allow our team to manage the risk and simplify your path to value with turn-key capabilities.</p><p>We can put your project on the fast track to completion with full planning, execution, monitoring, and controlling capabilities.</p>
+            <div class="homepage-learn-more">
+              <a href="project-management.html">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="service-homepage" id="insp-hm-pg">
+          <a href="technical-services.html"><img class="service-item-img" src="img/ideas/industry-vert-o.jpg" alt="Partially constructed industrial building."></a>
+          <div class="service-text-group">
+            <h1>Technical Services</h1>
+            <p>We manage and maintain a large network of professionally qualified service providers.</p><p>We have the capacity to perform testing, qualification, manufacturing, construction, inspection, and field services.</p>
+            <div class="homepage-learn-more">
+              <a href="technical-services.html">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section class="trailing-info">
+      <p>Rakestraw, Ltd. provides the knowledgeable professionals you need to efficiently execute your projects and achieve your goals.</p>
+    </section>
+    <section class="contact-tag">
+      <p>Get in touch with an expert.</p>
+      <div class="contact-btn">
+        <a href="contact.html">Contact Us</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <nav class="nav-footer">
+      <ul aria-label="Footer Navigation Menu" class="main-footer-nav-list">
+        <li class="ftr-company-name">
+          <a href="index.html">Rakestraw, Ltd.</a>
+          <a id="linkedin-ftr" href="https://www.linkedin.com/company/rakestraw-ltd/about/" rel=”noopener noreferrer” target="_blank" aria-label="link to Rakestraw LinkedIn"><img src="img/icon-linkedin.svg" alt="linkedin logo"></a>
+        </li>
+        <span aria-hidden="true" class="vertical-ftr-line"></span>
+        <div role="list" class="main-footer-nav-items">
+          <li class="main-footer-nav-item">
+            <a href="about.html">About</a>
+          </li>
+          <li class="main-footer-nav-item lg-screen-services">
+            <a href="services.html">Services</a>
+          </li>
+          <!--these specific service items visible on medium screens and above-->
+          <div role="list" class="lg-screen-footer">
+            <li class="main-footer-nav-item">
+              <a href="engineering.html">Engineering</a>
+            </li>
+            <li class="main-footer-nav-item">
+              <a href="project-management.html">Project Management</a>
+            </li>
+            <li class="main-footer-nav-item">
+              <a href="technical-services.html">Technical Services</a>
+            </li>
+          </div>
+          <!--vertical line for large screens only -->
+          <span aria-hidden="true" class="vertical-ftr-line-lg"></span>
+
+          <!-- ****Save this for when projects are added***
+          <li class="main-footer-nav-item">
+            <a href="projects.html">Projects</a>
+          </li>
+          -->
+          <li id="ftr-contact-item" class="main-footer-nav-item">
+            <a href="contact.html">Contact</a>
+          </li>
+        </div>
+
+      </ul>
+      <ul aria-label="Footer Sub Menu" class="legal-nav-list">
+        <li class="legal-nav-item">
+          <a href="legal.html">Legal</a>
+        </li>
+        <li class="legal-nav-item">
+          <a href="copyright.html">&#169; 2019 Rakestraw, Ltd.</a>
+        </li>
+        <li class="legal-nav-item">
+          <a href="credit.html">CL Creation</a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
+  <script type="text/javascript" src="js/app.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/5.9.4/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAByn7J75TmG1xHHpprLIpVfOpNtD9rBlc",
+    authDomain: "rakestraw-9747c.firebaseapp.com",
+    databaseURL: "https://rakestraw-9747c.firebaseio.com",
+    projectId: "rakestraw-9747c",
+    storageBucket: "rakestraw-9747c.appspot.com",
+    messagingSenderId: "418070480278"
+  };
+  firebase.initializeApp(config);
+</script>
+</body>
+
+
 </html>

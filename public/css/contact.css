@@ -230,7 +230,7 @@ input.first-name {
   }
   .locations-list {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 }
 
@@ -242,7 +242,7 @@ input.first-name {
   .main-contact {
     display: grid;
     grid-template-columns: [c1] 50% [c2] 50% [c3];
-    grid-template-rows: [r1] 5% [r2] 35% [r3] 55% [r4] 5% [r5];
+    grid-template-rows: [r1] 5% [r2] 5% [r3] 40% [r4] 40% [r5] 5% [r6] 5% [r7] ;
     align-items: center;
     padding: 5px 15%;
     justify-items: center;
@@ -251,13 +251,13 @@ input.first-name {
     margin-top: 0;
     margin-bottom: 0;
     grid-column: c1/c2;
-    grid-row: r2/r3;
+    grid-row: r3/r4;
   }
   .contact-form-section {
     order: 2;
     width: 100%;
     grid-column: c2/c3;
-    grid-row: r2/r4;
+    grid-row: r2/r6;
   }
   .contact-form {
     margin-top: 3em;
@@ -275,10 +275,10 @@ input.first-name {
     margin-bottom: 0;
     margin-top: 0;
     grid-column: c1/c2;
-    grid-row: r3/r4
+    grid-row: r4/r5
   }
   .locations-list {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 }

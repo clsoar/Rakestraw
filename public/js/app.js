@@ -57,3 +57,14 @@ if(formSubmitBtn) {
     });
   }
 }
+
+// Initialize Firebase
+var config = {
+  apiKey: "AIzaSyAByn7J75TmG1xHHpprLIpVfOpNtD9rBlc",
+  authDomain: "rakestraw-9747c.firebaseapp.com",
+  databaseURL: "https://rakestraw-9747c.firebaseio.com",
+  projectId: "rakestraw-9747c",
+  storageBucket: "rakestraw-9747c.appspot.com",
+  messagingSenderId: "418070480278"
+};
+firebase.initializeApp(config);

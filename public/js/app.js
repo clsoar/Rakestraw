@@ -49,6 +49,7 @@ if(formSubmitBtn) {
   if(!extra.value && !extra3.value){
     formSubmitBtn.addEventListener("click", (evt) => {
       if(!extra.value && extra2.value === "Do not change" && !extra3.value){
+        //new action address (4/23/2019) https://www.briskforms.com/go/186419c57ac55af1f9134bc7eb333019
         contactform.setAttribute('action', "https://www.briskforms.com/go/859f7798ca417fbb7ad5e7c091a919d5");
         console.log("Form sent");
       } else {

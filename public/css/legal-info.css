@@ -99,7 +99,7 @@
   .legal-section-hdr::after {
     bottom: -10px;
   }
-  .legal-hero p {
+  .legal-hero p, .legal-hero ol {
     padding: 0 20% 10px 20%;
   }
 }
